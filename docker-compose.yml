@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   app:
-    image: thelounge/thelounge
+    image: thelounge/thelounge:4.2.0
     restart: always
     volumes:
       - data:/var/opt/thelounge
